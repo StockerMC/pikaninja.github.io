@@ -50,6 +50,10 @@ div {
     margin: 0.5em;
 }
 
+.buttons button:hover {
+    background-color: #111111
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -155,11 +159,6 @@ button {
     font-size: 1.5em;
     color: #ffffff;
     text-align: center;
-}
-
-th {
-    background-color: #222222;
-    border: 1px solid black;
 }
 
 th h1, th h2 {
