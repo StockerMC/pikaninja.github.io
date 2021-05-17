@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>RoboPika</title>
         <meta property="og:type" content="Robopika">
         <meta property="og:title" content="RoboPika - A Discord Bot">
         <meta property="og:image" content="https://cdn.discordapp.com/avatars/755626533246206013/aff4d017b096037ab26a3976d5839bcd.png?size=1024">
         <meta name="theme-color" content="#7289DA">
         <meta property="og:description" content="A multipurpose Bot">
-        <title>RoboPika</title>
         <link rel="icon" type="image/png" href="img/robopika-circle.png"/>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="svgicons.css">
     </head>
     <body>
         <div class = "buttons">
@@ -33,7 +34,7 @@
             </button>
         </div>
         <div class = "dark">
-            <table style="width:100%">
+            <table style = "width:100%">
                 <th style = "width:50%;padding:1rem;">
                      <div class = "title">
                         <h1>
@@ -87,7 +88,14 @@
             <h1 style = "margin-bottom:1em;">
                 Moderation, Utility, Support, Fun and so much more...
             </h1>
-        <button class = "button buttoninv" onclick = "window.open('https://discord.com/oauth2/authorize?client_id=755626533246206013&scope=bot&permissions=1543892215','_blank')"> + Add to your discord</button>
+            <button class = "button buttoninv" onclick = "window.open('https://discord.com/oauth2/authorize?client_id=755626533246206013&scope=bot&permissions=1543892215','_blank')">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path stroke="white" stroke-width="0.8" d="M14.613,10c0,0.23-0.188,0.419-0.419,0.419H10.42v3.774c0,0.23-0.189,0.42-0.42,0.42s-0.419-0.189-0.419-0.42v-3.774H5.806c-0.23,0-0.419-0.189-0.419-0.419s0.189-0.419,0.419-0.419h3.775V5.806c0-0.23,0.189-0.419,0.419-0.419s0.42,0.189,0.42,0.419v3.775h3.774C14.425,9.581,14.613,9.77,14.613,10 M17.969,10c0,4.401-3.567,7.969-7.969,7.969c-4.402,0-7.969-3.567-7.969-7.969c0-4.402,3.567-7.969,7.969-7.969C14.401,2.031,17.969,5.598,17.969,10 M17.13,10c0-3.932-3.198-7.13-7.13-7.13S2.87,6.068,2.87,10c0,3.933,3.198,7.13,7.13,7.13S17.13,13.933,17.13,10"></path>
+                </svg>
+                <span>
+                    Add to your discord
+                </span>
+            </button>
         </div>
     </body>
 </html>
